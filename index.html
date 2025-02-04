@@ -16,32 +16,24 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="assets/images/weather-icon.png">Rain er No!</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    
+     
+        <div class="container-fluid justify-content-center">
+            <a class="navbar-brand d-flex align-items-center justify-content-center" href="#">
+            <img src="assets/images/weather-icon.png" style="width: 100px; height: 100px; margin-right: 10px;">
+            <h1>Rain er No!</h1>
+            </a>
+          
+        </div>
+       
     </header>
-
+        
     <main>
       <div class="hero-image">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8">
                     <div class="d-flex justify-content-center">
-                      <p>Find the weather near you!</p>
+                      <h2>Find the weather near you!</h2>
                     </div>
                 </div>
                 <div class="col-12 col-md-8">
@@ -62,13 +54,13 @@
         </div>
       </div>
       <section>
-        <div class="container">
+        <div class="container d-flex flex-wrap"></div>
           <div id="today-weather" class="row justify-content-center mb-4">
               <!-- Today's weather will be inserted here -->
           </div>
-          <div id="forecast-section" class="row justify-content-center">
+            <div id="forecast-section" class="row justify-content-center">
               <!-- Forecast cards will be inserted here -->
-          </div>
+            </div>
       </div>
       </section>
       <section id="forecast-section">
@@ -76,7 +68,7 @@
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="d-flex justify-content-center">
-                      <h2>5 Day Forecast Section</h2>
+                      <h2>4 Day Forecast Section</h2>
                     </div>
                 </div>
                 <div class="card mx-3 my-3" style="width: 18rem;">
@@ -140,24 +132,7 @@
         </div>
 
 
-      </section>
-      <section id="wear-section">
-        <div>
-          <h2>What should I wear today?</h2>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search Location"
-              aria-label="Search"
-              id="location-input"
-            />
-            <button class="btn btn-outline-success" type="button" id="search-button">
-              Search
-            </button>
-          </form>
-        </div>
-      </section>
+     
     </main>
 
     <footer>Footer Placeholder Text</footer>
