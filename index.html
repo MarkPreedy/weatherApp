@@ -24,26 +24,6 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Link
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Link</a>
-                  </li>
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -60,7 +40,9 @@
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8">
-                    <p>Find the weather near you!</p>
+                    <div class="d-flex justify-content-center">
+                      <p>Find the weather near you!</p>
+                    </div>
                 </div>
                 <div class="col-12 col-md-8">
                     <form class="d-flex" role="search">
@@ -69,8 +51,9 @@
                           type="search"
                           placeholder="Search Location"
                           aria-label="Search"
+                          id="location-input"
                         />
-                        <button class="btn btn-outline-success" type="submit">
+                        <button class="btn btn-outline-success" type="button" id="search-button">
                           GO!
                         </button>
                       </form>
@@ -83,10 +66,12 @@
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <h2>5 Day Forecast Section</h2>
+                    <div class="d-flex justify-content-center">
+                      <h2>5 Day Forecast Section</h2>
+                    </div>
                 </div>
                 <div class="card mx-3 my-3" style="width: 18rem;">
-                    <img src="assets/images/sunny.png" class="card-img-top" alt="cartoon sunshine">
+                    <img src="assets/images/clear.png" class="card-img-top" alt="cartoon sunshine">
                     <div class="card-body">
                       <h5 class="card-title">Today: Sunny!</h5>
                       <p class="card-text">
@@ -154,8 +139,9 @@
               type="search"
               placeholder="Search Location"
               aria-label="Search"
+              id="location-input"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button class="btn btn-outline-success" type="button" id="search-button">
               Search
             </button>
           </form>
