@@ -68,7 +68,7 @@ function displayWeather(data) {
     forecastSection.innerHTML = ''; // Clear previous results
 
     for (let i = 1; i < 5; i++) {
-        const day = data.list[i];
+        const day = data.list[i*7];
         const card = document.createElement('div');
         card.className = 'col-12 col-sm-6 col-md-3 mb-4 d-flex justify-content-center'; // Responsive classes
 
