@@ -3,6 +3,7 @@ let apiKey = 'cf109d70333ba3d4ec8abecc4033afbf';
 document.getElementById('search-button').addEventListener('click', handleButtonClick);
 document.getElementById('location-input').addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
+        event.preventDefault();
         console.log("test");
         handleButtonClick();
     }
