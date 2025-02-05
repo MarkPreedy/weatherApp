@@ -9,6 +9,11 @@ document.getElementById('location-input').addEventListener('keypress', function(
     }
 });
 
+document.getElementById('location-input').addEventListener('focus', function() {
+    this.value = '';
+});
+
+
 function handleButtonClick() {
     let locationName = document.getElementById('location-input').value;
 
