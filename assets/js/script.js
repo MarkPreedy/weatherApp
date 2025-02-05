@@ -42,6 +42,8 @@ function displayWeather(data) {
     todayImg.className = 'card-img-top mx-auto d-flex justify-content-center align-items-center'; // Center image
     todayImg.src = `assets/images/${todayWeather.weather[0].main.toLowerCase()}.png`;
     todayImg.alt = `cartoon ${todayWeather.weather[0].main.toLowerCase()}`;
+    todayImg.width = 288; // Set fixed width (18rem * 16px)
+    todayImg.height = 162; // Set fixed height (adjust as needed)
 
     const todayCardBody = document.createElement('div');
     todayCardBody.className = 'card-body';
@@ -80,7 +82,8 @@ function displayWeather(data) {
         img.className = 'card-img-top mx-auto d-flex justify-content-center align-items-center'; // Center image
         img.src = `assets/images/${day.weather[0].main.toLowerCase()}.png`;
         img.alt = `cartoon ${day.weather[0].main.toLowerCase()}`;
-
+        img.width = 288; // Set fixed width (18rem * 16px)
+        img.height = 162; // Set fixed height (adjust as needed)
         const cardBody = document.createElement('div');
         cardBody.className = 'card-body';
 
