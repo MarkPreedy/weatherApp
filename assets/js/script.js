@@ -1,6 +1,11 @@
 let apiKey = 'cf109d70333ba3d4ec8abecc4033afbf';
 
 document.getElementById('search-button').addEventListener('click', handleButtonClick);
+document.getElementById('location-input').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        handleButtonClick();
+    }
+});
 
 function handleButtonClick() {
     let locationName = document.getElementById('location-input').value;
@@ -27,7 +32,7 @@ function displayWeather(data) {
     todayCard.style.width = '18rem';
 
     const todayImg = document.createElement('img');
-    todayImg.className = 'card-img-top';
+    todayImg.className = 'card-img-top mx-auto d-flex justify-content-center align-items-center'; // Center image
     todayImg.src = `assets/images/${todayWeather.weather[0].main.toLowerCase()}.png`;
     todayImg.alt = `cartoon ${todayWeather.weather[0].main.toLowerCase()}`;
 
@@ -58,14 +63,14 @@ function displayWeather(data) {
     for (let i = 1; i < 5; i++) {
         const day = data.list[i];
         const card = document.createElement('div');
-        card.className = 'col-12 col-sm-6 col-md-3 mb-4'; // Responsive classes
+        card.className = 'col-12 col-sm-6 col-md-3 mb-4 d-flex justify-content-center'; // Responsive classes
 
         const cardInner = document.createElement('div');
         cardInner.className = 'card mx-3 my-3';
         cardInner.style.width = '18rem';
 
         const img = document.createElement('img');
-        img.className = 'card-img-top';
+        img.className = 'card-img-top mx-auto d-flex justify-content-center align-items-center'; // Center image
         img.src = `assets/images/${day.weather[0].main.toLowerCase()}.png`;
         img.alt = `cartoon ${day.weather[0].main.toLowerCase()}`;
 
