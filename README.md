@@ -153,7 +153,7 @@ Simple layout with easy to input location and a todays weather and a 4 day forec
 ![Extended Wireframe - Mobile Devices](https://github.com/user-attachments/assets/0208af04-a30b-4779-9e30-302737e4a9da)
 
 **Extended Tablet Wireframe**
-![Extended Wireframe - Tablet Devices](https://github.com/user-attachments/assets/3d8d74c5-04ff-4e3a-80b1-534dd4688219)
+![Extended Wireframe - Tablet Devices](https://github.com/user-attachments/assets/82513157-4116-4d69-948a-fca5a7cfec23)
 
 **Extended Desktop Wireframe**
 ![Extended Wireframe - Desktop Devices](https://github.com/user-attachments/assets/7b40e60f-b780-479c-b961-53a4026d3123)
