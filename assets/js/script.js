@@ -3,6 +3,7 @@ let apiKey = 'cf109d70333ba3d4ec8abecc4033afbf';
 document.getElementById('search-button').addEventListener('click', handleButtonClick);
 document.getElementById('location-input').addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
+        console.log("test");
         handleButtonClick();
     }
 });
@@ -28,7 +29,7 @@ function displayWeather(data) {
     todayWeatherSection.innerHTML = ''; // Clear previous results
 
     const todayCard = document.createElement('div');
-    todayCard.className = 'card mx-3 my-3';
+    todayCard.className = 'card mx-3 my-3 shadow';
     todayCard.style.width = '18rem';
 
     const todayImg = document.createElement('img');
@@ -66,7 +67,7 @@ function displayWeather(data) {
         card.className = 'col-12 col-sm-6 col-md-3 mb-4 d-flex justify-content-center'; // Responsive classes
 
         const cardInner = document.createElement('div');
-        cardInner.className = 'card mx-3 my-3';
+        cardInner.className = 'card mx-3 my-3 shadow';
         cardInner.style.width = '18rem';
 
         const img = document.createElement('img');
@@ -97,3 +98,4 @@ function displayWeather(data) {
         forecastSection.appendChild(card);
     }
 }
+handleButtonClick();
