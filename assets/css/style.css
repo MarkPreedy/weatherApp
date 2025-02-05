@@ -1,10 +1,10 @@
-.hero-image {
+body {
     background-image: url(../images/hero-image.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 55rex;
-    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    background-blend-mode: lighten; /* Blend the background image with the white color */
 }
 
 .navbar-brand {

@@ -16,51 +16,25 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="assets/images/weather-icon.png">Rain er No!</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Link
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Link</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    
+     
+        <div class="container-fluid justify-content-center">
+            <a class="navbar-brand d-flex align-items-center justify-content-center" href="#">
+            <img src="assets/images/weather-icon.png" style="width: 100px; height: 100px; margin-right: 10px;">
+            <h1>Rain er No!</h1>
+            </a>
+          
+        </div>
+       
     </header>
-
+        
     <main>
       <div class="hero-image">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8">
-                    <p>Find the weather near you!</p>
+                    <div class="d-flex justify-content-center">
+                      <h2>Find the weather near you!</h2>
+                    </div>
                 </div>
                 <div class="col-12 col-md-8">
                     <form class="d-flex" role="search">
@@ -69,8 +43,9 @@
                           type="search"
                           placeholder="Search Location"
                           aria-label="Search"
+                          id="location-input"
                         />
-                        <button class="btn btn-outline-success" type="submit">
+                        <button class="btn btn-outline-success" type="button" id="search-button">
                           GO!
                         </button>
                       </form>
@@ -78,15 +53,26 @@
             </div>
         </div>
       </div>
-
+      <section>
+        <div class="container d-flex flex-wrap"></div>
+          <div id="today-weather" class="row justify-content-center mb-4">
+              <!-- Today's weather will be inserted here -->
+          </div>
+            <div id="forecast-section" class="row justify-content-center">
+              <!-- Forecast cards will be inserted here -->
+            </div>
+      </div>
+      </section>
       <section id="forecast-section">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <h2>5 Day Forecast Section</h2>
+                    <div class="d-flex justify-content-center">
+                      <h2>4 Day Forecast Section</h2>
+                    </div>
                 </div>
                 <div class="card mx-3 my-3" style="width: 18rem;">
-                    <img src="assets/images/sunny.png" class="card-img-top" alt="cartoon sunshine">
+                    <img src="assets/images/clear.png" class="card-img-top" alt="cartoon sunshine">
                     <div class="card-body">
                       <h5 class="card-title">Today: Sunny!</h5>
                       <p class="card-text">
@@ -144,23 +130,9 @@
                 </div>
             </div>
         </div>
-      </section>
-      <section id="wear-section">
-        <div>
-          <h2>What should I wear today?</h2>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search Location"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </section>
+
+
+     
     </main>
 
     <footer>Footer Placeholder Text</footer>
