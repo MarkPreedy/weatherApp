@@ -1,8 +1,8 @@
-## Rain-or-No?
+# Rain-or-No?
 
 ## User Stories
 
-**The Must Haves**
+## The Must Haves
 
 **User Story:**
 As a user, I want the website to be visually appealing and easy to navigate, so that I can quickly find the information I need.
@@ -76,7 +76,7 @@ As a user who predominantly uses their mobile, I want the website to be responsi
 - Test the website on different device sizes to ensure functionality and ease of use.
 
 
-**The Should Haves**
+## The Should Haves
 
 **User Story:**
 As a potential user I would like to be able to see various weather statistics for the day so that I can understand the weather in greater detail to enable me to dress accordingly.
@@ -89,7 +89,7 @@ As a potential user I would like to be able to see various weather statistics fo
 - Ensure the various data types load correctly into the site when called upon.**
 
 
-**The Could Haves**
+## The Could Haves
 
 **User Story:**
 As a user, I want the website to automatically detect my location, so that I don't have to manually enter it.
