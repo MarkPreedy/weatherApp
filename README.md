@@ -1,4 +1,4 @@
-# Rain-or-No?
+# Rain-er-No?
 
 ## User Stories
 
@@ -135,30 +135,27 @@ As a user I want to be able to find the day's weather so that I can make an info
 
 
 # The WireFrame for the look of the website
+Simple layout with easy to input location and a todays weather and a further 4 day forecast mainly for Cornish users hence the Name chosen as Rain-er-no?
 
-![wireframe](assets/images/rain-er-no-wireframe.png)
-
-Simple layout with easy to input location and a todays weather and a 4 day forecast mainly for Cornish users hence the Name chosen as Rain-or-no?
-
-**Mobile Wireframe**
+### Mobile Wireframe MVP
 ![MVP Wireframe - Mobile Devices](https://github.com/user-attachments/assets/2de725fc-0ea7-41a6-848d-60aafc75ebfe)
 
-**Tablet Wireframe**
+### Tablet Wireframe MVP
 ![MVP Wireframe - Tablet Devices](https://github.com/user-attachments/assets/f78ee4a3-c085-45cf-93f0-e697d03eef7b)
 
-**Desktop Wireframe**
+### Desktop Wireframe MVP
 ![MVP Wireframe - Desktop Devices](https://github.com/user-attachments/assets/c28df94c-dd82-4525-8cbf-1b4081df02b0)
 
-**Extended Mobile Wireframe**
-![Extended Wireframe - Mobile Devices](https://github.com/user-attachments/assets/0208af04-a30b-4779-9e30-302737e4a9da)
+### Extended Mobile Wireframe
+![Extended Wireframe - Mobile Devices](https://github.com/user-attachments/assets/fc42d016-09ea-4201-8079-7509875cfbbe)
 
-**Extended Tablet Wireframe**
+### Extended Tablet Wireframe
 ![Extended Wireframe - Tablet Devices](https://github.com/user-attachments/assets/82513157-4116-4d69-948a-fca5a7cfec23)
 
-**Extended Desktop Wireframe**
+### Extended Desktop Wireframe
 ![Extended Wireframe - Desktop Devices](https://github.com/user-attachments/assets/7b40e60f-b780-479c-b961-53a4026d3123)
 
 
-# The back ground image is used to give a cornish vibe
+# The background image is used to give a cornish vibe
 
 ![The cornish coastal vibe](assets/images/hero-image.jpg)
