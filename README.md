@@ -240,10 +240,6 @@ Images were used from the following sources:
 - https://www.iconfinder.com/
 - https://www.freepik.com/
 
-![first bug image](https://github.com/user-attachments/assets/d0790b63-07ea-4221-8109-b76f8845667d)
-
-![second bug image](https://github.com/user-attachments/assets/a7e65aff-bfb4-4f22-8551-68877647f870)
-
 
 
 
