@@ -171,7 +171,7 @@ Microsoft CoPilot was used in two targeted areas:
 - to generate user stories, which were then manually edited to ensure they were cohesive and practicable given the scope of the project;
 - to create JavaScript code to integrate a weather API, which was then tested and manually edited to provide functionality.
 
-##Bugs 
+## Bugs 
 
 On first run through the webpage was empty so we had to insert a value for the search string and we set that as United Kingdom. 
 
