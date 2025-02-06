@@ -201,14 +201,15 @@ JavaScript validation was completed using https://jshint.com/
 ## Code Attribution
 Code was used from the following sources:
 
-Code Institute LMS lessons,
-Bootstrap,
-Microsoft CoPilot,
+- Code Institute LMS lessons
+- Bootstrap
+- Microsoft CoPilot
 
-##Image Attribution
+## Image Attribution
 Images were used from the following sources:
-https://www.gettyimages.co.uk/
-https://www.iconfinder.com/
+
+- https://www.gettyimages.co.uk/
+- https://www.iconfinder.com/
 
 
 
