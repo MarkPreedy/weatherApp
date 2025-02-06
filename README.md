@@ -171,6 +171,21 @@ Microsoft CoPilot was used in two targeted areas:
 - to generate user stories, which were then manually edited to ensure they were cohesive and practicable given the scope of the project;
 - to create JavaScript code to integrate a weather API, which was then tested and manually edited to provide functionality.
 
+##Bugs 
+
+On first run through the webpage was empty so we had to insert a value for the search string and we set that as United Kingdom. 
+
+Also we had issue with the search string not clearing when we tried to change the intial entry of United Kingdom. So we had to add a eventlistener in the javascript to clear when entered.
+
+Then we had to add the ability to use the retrn key to initiate search aswell as the go button. This required a prevent default to allow this as bellow.
+![first bug image](https://github.com/user-attachments/assets/d0790b63-07ea-4221-8109-b76f8845667d)
+
+To enable the initial entry of UK we had to call the function last as per image below:
+![second bug image](https://github.com/user-attachments/assets/a7e65aff-bfb4-4f22-8551-68877647f870)
+
+
+
+
 ## Testing and Validation
 
 ### Performance, Accessibility, Best Practices, and SEO
