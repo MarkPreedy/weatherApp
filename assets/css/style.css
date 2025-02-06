@@ -27,3 +27,12 @@ body {
 #search-button {
    border: none;
 }
+
+/* Media query for laptop with screen size 768x1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+    footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+}
