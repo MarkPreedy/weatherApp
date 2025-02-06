@@ -1,5 +1,10 @@
 # Rain-er-No?
 
+<img width="652" alt="responsive image" src="https://github.com/user-attachments/assets/bb4af6e0-503d-4d02-bc60-99f6d1758674" />
+
+## Purpose
+A website that provides location-based weather information for users.  An API is integrated using JavaScript to source the weather from a reliable, third-party website.
+
 ## User Stories
 
 ## The Must Haves
@@ -159,6 +164,12 @@ Simple layout with easy to input location and a todays weather and a further 4 d
 # The background image is used to give a cornish vibe
 
 ![The cornish coastal vibe](assets/images/hero-image.jpg)
+
+## Use of AI
+
+Microsoft CoPilot was used in two targeted areas:
+- to generate user stories, which were then manually edited to ensure they were cohesive and practicable given the scope of the project;
+- to create JavaScript code to integrate a weather API, which was then tested and manually edited to provide functionality.
 
 ## Testing and Validation
 
