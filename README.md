@@ -183,6 +183,8 @@ Mobile page results:
 Desktop page results:
 <img width="702" alt="desktop snipping tool" src="https://github.com/user-attachments/assets/10429d18-3851-499a-87f3-294066da6b3b" />
 
+Lighthouse Desktop test for upload speed and accessibility:
+![lighthouse-testing-rain-er-no](https://github.com/user-attachments/assets/2c83fa8e-c77f-402b-8e56-1f38aead78a8)
 
 
 ### HTML Validation
@@ -221,6 +223,7 @@ Images were used from the following sources:
 
 - https://www.gettyimages.co.uk/
 - https://www.iconfinder.com/
+- https://www.freepik.com/
 
 
 
