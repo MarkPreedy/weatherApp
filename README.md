@@ -159,3 +159,57 @@ Simple layout with easy to input location and a todays weather and a further 4 d
 # The background image is used to give a cornish vibe
 
 ![The cornish coastal vibe](assets/images/hero-image.jpg)
+
+## Testing and Validation
+
+### Performance, Accessibility, Best Practices, and SEO
+These were tested using https://pagespeed.web.dev/?hl=en-GB:
+
+Mobile page results:
+<img width="748" alt="mobile page performance" src="https://github.com/user-attachments/assets/c3085deb-bbc3-4d8a-b27d-3e80f6b9fff8" />
+
+
+Desktop page results:
+<img width="702" alt="desktop snipping tool" src="https://github.com/user-attachments/assets/10429d18-3851-499a-87f3-294066da6b3b" />
+
+
+
+### HTML Validation
+HTML validation was completed using https://validator.w3.org/:
+
+<img width="898" alt="html testing validation pt 1" src="https://github.com/user-attachments/assets/7ab2e16d-453c-4818-a2a3-856863f11568" />
+
+
+Two errors were found within the html code:
+
+<img width="869" alt="html testing validation pt 2" src="https://github.com/user-attachments/assets/d1aa8e98-9464-4a5b-ad6d-56ad9241c621" />
+
+
+
+### CSS Validation
+CSS validation was completed using https://jigsaw.w3.org/css-validator/:
+
+<img width="918" alt="css testing validation" src="https://github.com/user-attachments/assets/78341bd0-2e2b-4ee2-8237-486f7c3a9eec" />
+
+
+### JavaScript Validation
+JavaScript validation was completed using https://jshint.com/
+
+<img width="474" alt="js testing validation" src="https://github.com/user-attachments/assets/ab75b8e6-f1ab-4720-8f50-871e99436e48" />
+
+
+## Code Attribution
+Code was used from the following sources:
+
+Code Institute LMS lessons,
+Bootstrap,
+Microsoft CoPilot,
+
+##Image Attribution
+Images were used from the following sources:
+https://www.gettyimages.co.uk/
+https://www.iconfinder.com/
+
+
+
+
