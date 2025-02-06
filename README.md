@@ -1,6 +1,6 @@
 # Rain-er-No?
 
-<img width="652" alt="responsive image" src="https://github.com/user-attachments/assets/bb4af6e0-503d-4d02-bc60-99f6d1758674" />
+<img width="652" alt="responsive image" src="https://github.com/user-attachments/assets/569081f8-9d08-4199-b495-8f3ec694f715" />
 
 ## Purpose
 A website that provides location-based weather information for users.  An API is integrated using JavaScript to source the weather from a reliable, third-party website.
